@@ -66,7 +66,7 @@ gitalk:
   clientSecret: ffa5e54017169cfff93cb1f9af0a9eaa5d56236c
   repo: yellowprogramer.github.io    #仓库名称
   owner: yellowprogramer  #github用户名
-  admin: [yellowprogramer]
+  admin: yellowprogramer
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
