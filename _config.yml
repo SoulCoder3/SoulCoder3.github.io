@@ -64,9 +64,9 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: a33291b94e08da5c28b1
   clientSecret: 796d4440aca9ee29126f781b93609e3374c07aee
-  repo: 792508339.github.io    #仓库名称
-  owner: yellow  #github用户名
-  admin: yellow
+  repo: yellowprogramer.github.io    #仓库名称
+  owner: yellowprogramer  #github用户名
+  admin: yellowprogramer
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
