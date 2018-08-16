@@ -67,7 +67,7 @@ gitalk:
   repo: yellowprogramer.github.io    #仓库名称
   owner: yellowprogramer  #github用户名
   admin: yellowprogramer
-  id: decodeURI(location.pathname)
+  id: location.href
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
