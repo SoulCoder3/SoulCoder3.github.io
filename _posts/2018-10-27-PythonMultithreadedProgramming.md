@@ -45,7 +45,7 @@ b. Thread actively gives up control
 * Derive a Thread subclass and create an instance of a subclass
   The first and third methods are generally used because the second method is a bit embarrassing and difficult to read.
 
-#### 创建Thread实例，并传给它一个函数
+#### Create a Thread instance and pass it a function
 ```python
 import threading
 from time import sleep, ctime
@@ -76,7 +76,7 @@ if __name__=='_main_':
 	main()
 ```
 
-####　创建Thread的实例，传给它一个可调用的类实例
+#### Create thread instance and pass it a callable class instance
 ```python
 improt threading
 from time import sleep, ctime
@@ -116,7 +116,7 @@ if __name__=='_main_':
 
 ```
 
-#### 派生Thread子类，并创建子类的实例
+#### Derive a Thread subclass and create an instance of a subclass
 ```
 import threading
 from time import sleep, ctime
