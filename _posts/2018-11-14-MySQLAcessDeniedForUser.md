@@ -20,18 +20,18 @@ The reason for this problem is that
 **the reload permission(权限) is reclaimed ,making it impossible to reassign(重新分配) permissions. Other similar permission issues can alse refer to this method**.
 
 The solution is as follow:
-####1.Stop Mysql service
+#### 1.Stop Mysql service
 * go to the mysql directory and use console to run :
 **$ service mysql stop**
-####2.Skip password verification
+#### 2.Skip password verification
 * go to find mysql's configuration file,which name is my.cnf I searched.But In my linux, this file is named **mysqld.cnf in the /etc/mysql/mysql.conf.d.** It may be different between versions.
 * Open it and add **'skip-grant-tables'** after [mysqld] to save and exit.
-####3.restart mysql service
+#### 3.restart mysql service
 * **$ service mysql restart**
-####4.Login in
+#### 4.Login in
 * $ mysql -uroot -p
 no password is required here to enter.
-####5. Change your root password
+#### 5. Change your root password
 $ use mysql;
 $ update user set password=password('root') where user ='root';
 
@@ -42,6 +42,6 @@ $ update user set authentication_string=password('root') where user ='root';
 $ flush privileges;
 $ exit;
 
-####6.Delete 'skip=grant-tables' in mysqld.cnf
+#### 6.Delete 'skip=grant-tables' in mysqld.cnf
 * restart mysql
 
