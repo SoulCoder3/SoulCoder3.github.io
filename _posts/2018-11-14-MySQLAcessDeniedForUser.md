@@ -10,7 +10,7 @@ tags:
     - 笔记
     - 个人
     - MySQL
-    -Debug
+    - Debug
 ---
 
 Today, I want to use mysql to connect my python program, but when I logined in mysql, it was wrong.  It print that 
