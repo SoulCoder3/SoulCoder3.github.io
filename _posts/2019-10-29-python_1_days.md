@@ -14,7 +14,7 @@ tags:
 
 ## Python-1-days
 
-##for-in  
+## for-in  
 
 Example1:
 
@@ -58,7 +58,7 @@ else:
 
 ```
 
-**if a number is a prime number, it must equal to 6x-1 or 6x+1, where x is a natural number greater than or equal to 1.  ** 
+**if a number is a prime number, it must equal to 6x-1 or 6x+1, where x is a natural number greater than or equal to 1.** 
 
 ---
 
