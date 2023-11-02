@@ -4,7 +4,7 @@ title:      CSE 15L Lab Report2
 subtitle:   
 date:       2023-10-27
 author:     BY David
-header-img: img/post-bg-kuaidi.jpg
+header-img: img/TechTool.jpg
 catalog: true
 tags:
     - SSH key
