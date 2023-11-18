@@ -14,10 +14,10 @@ tags:
 ## Vim Operation Guide
 ### Move
 #### Move in character
-`h`: shift left one character
-`j`: shift down one character
-`k`: shift up one character
-`l`: shift right one character
+`h`: shift left one character  
+`j`: shift down one character  
+`k`: shift up one character  
+`l`: shift right one character  
 `5l`: Like other shortcut keys, we can use numbers to move multiple characters, such as `5l` to move 5 characters to the left.
 
 ### Move in line
