@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Vim operator
+title:      Binary Tree Debug
 subtitle:   
 date:       2023-11-16
 author:     BY David
