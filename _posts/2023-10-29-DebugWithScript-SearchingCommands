@@ -22,7 +22,7 @@ public StringChecker checker = (str) -> { //return False if the String contain '
 };
 ```  
 Result:  
-![failure-input](failure-input.png)  
+![failure-input](https://raw.githubusercontent.com/SoulCoder3/SoulCoder3.github.io/master/img/2023-10-29-DebugWithScript-SearchingCommands/failure-input.png) 
 
 ### An input that doesn’t induce a failure:  
 ```java
@@ -44,10 +44,10 @@ public StringChecker checker = (str) -> { //return False if the String contain '
 };
 ```  
 Result:  
-![success-input](success-input.png)  
+![success-input](https://raw.githubusercontent.com/SoulCoder3/SoulCoder3.github.io/master/img/2023-10-29-DebugWithScript-SearchingCommands/success-input.png)  
 
 So the symptom is:  
-![symptom-output](symptom-output.png)  
+![symptom-output](https://raw.githubusercontent.com/SoulCoder3/SoulCoder3.github.io/master/img/2023-10-29-DebugWithScript-SearchingCommands/symptom-output.png)  
 
 The bug code before fix:
 ```java
@@ -81,7 +81,7 @@ The code after fix with deleting '0' argument in add():
   }
 ```  
 Test pass:  
-![success-output](success-output.png)  
+![success-output](https://raw.githubusercontent.com/SoulCoder3/SoulCoder3.github.io/master/img/2023-10-29-DebugWithScript-SearchingCommands/success-output.png)  
 
 ### Description: 
 `StringChecker()` return `False` if the String contains 'o'. From the successful test, I can know that the filter function successfully filter by `StringChecker()`, because the result List doesn't contain 'ssoss'.  
