@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      CSE 15L Lab Report2
+title:      Server Running and SSH Key
 subtitle:   
 date:       2023-10-27
 author:     BY David

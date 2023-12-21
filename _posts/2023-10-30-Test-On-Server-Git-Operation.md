@@ -1,3 +1,18 @@
+---
+layout:     post
+title:      Test On Server and Git Operation
+subtitle:   
+date:       2023-10-27
+author:     BY David
+header-img: img/TechTool.jpg
+catalog: true
+tags:
+    - Git
+    - Debug
+
+
+---
+
 # CSE 15L lab report 4
 ## Log into ieng6
 ![image](https://raw.githubusercontent.com/SoulCoder3/SoulCoder3.github.io/master/img/2023-10-30-TestOnServer-GitOperation/Step0.png)  

@@ -1,3 +1,17 @@
+---
+layout:     post
+title:      Common Terminal Commands
+subtitle:   
+date:       2023-10-27
+author:     BY David
+header-img: img/TechTool.jpg
+catalog: true
+tags:
+    - Commands
+
+
+---
+
 If we use cd command without any arguments, it will change the current directory to the home directory.  
 If the current direcotry is the home directory, it keeps in the current direcotry.  
 ![Image](https://raw.githubusercontent.com/SoulCoder3/SoulCoder3.github.io/master/img/2023-10-28-Common-Commands/cat1.1.png)  

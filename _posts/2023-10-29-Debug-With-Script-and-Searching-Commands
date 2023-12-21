@@ -1,3 +1,18 @@
+---
+layout:     post
+title:      Debug with Script and Searching Commands
+subtitle:   
+date:       2023-10-27
+author:     BY David
+header-img: img/TechTool.jpg
+catalog: true
+tags:
+    - Commands
+    - Debug
+
+
+---
+
 ## Part1 - Bugs  
 ## The bugs from filter() in ListExamples.java
 ### A failure-inducing input:
