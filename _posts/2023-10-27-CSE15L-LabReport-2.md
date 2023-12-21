@@ -13,16 +13,16 @@ tags:
 
 ---
 
-# CSE 15L Lab Report2
+# Server Runing and SSH Key
 
 ## Part 1  
 The code of StringServer is as follows:  
-![lab2.1.png](../img/CSE-15L-Lab-Report2/lab2.1.png)  
+![lab2.1.png](https://raw.githubusercontent.com/SoulCoder3/SoulCoder3.github.io/master/img/CSE-15L-Lab-Report2/lab2.1.png)  
 
 ***  
 
 
-![Image](../img/CSE-15L-Lab-Report2/lab2.2.png)  
+![Image](https://raw.githubusercontent.com/SoulCoder3/SoulCoder3.github.io/master/img/CSE-15L-Lab-Report2/lab2.2.png)   
 1. When we start our server, a `Handler` object is created and `list` is initialized, which is a ArrayList to storage string.  
 2. When we do a request `http://localhost:4000/add-message?s=hello`, the `handleRequest(URI url)` is called by the whole url as an argument. the value of `url.getPath()` equals to `/add-message?s=hello`, so `url.getPath().contains("/add-message")` is true.
 3. The value of `url.getQuery()` is equal to `"s=hello"`. `split("=")` will splits the String into multiple Strings by separator `"="` and return an array `["s", "hello"]` to `parameters`.
@@ -34,7 +34,7 @@ The code of StringServer is as follows:
    - `join("\n", list)` method concatenates the given `list` with `\n` and returns the concatenated string.
    - Since there is only one String in `list`, it returns `"1. hello"`.
 
-![Image](../img/CSE-15L-Lab-Report2/lanb2.3.png)  
+![Image](https://raw.githubusercontent.com/SoulCoder3/SoulCoder3.github.io/master/img/CSE-15L-Lab-Report2/lanb2.3.png)  
 1. When we do a request `http://localhost:4000/add-message?s=world`, because it has the same path with last request, it is the same as the preceding runing steps up until the 5 step.
 2. `list.add(Integer.toString(list.size() + 1) + ". " + parameters[1]);`
    - Since `list` already have one String and the size is 1, `list.size() + 1` equals to 2 and `paramters[1]` equals to `"world"`.
@@ -46,11 +46,11 @@ The code of StringServer is as follows:
 
 ## Part 2
 1. The path to the private key for my SSH key on my computer. id_rsa is my private SSH key and id_rsa.pub is my public SSH key.
-![Image](../img/CSE-15L-Lab-Report2/lab2.4.png)
+![Image](https://raw.githubusercontent.com/SoulCoder3/SoulCoder3.github.io/master/img/CSE-15L-Lab-Report2/lab2.4.png)  
 1. The path to the public key for my SSH key on ieng6. Since I copy the public SSH key to ieng6 server, the file called authorized_keys is the public SSH key.
-![Image](../img/CSE-15L-Lab-Report2/lab2.6.png)
+![Image](https://raw.githubusercontent.com/SoulCoder3/SoulCoder3.github.io/master/img/CSE-15L-Lab-Report2/lab2.6.png)  
 1. log into ieng6 without being asked for a password.
-![Image](../img/CSE-15L-Lab-Report2/lab2.5.png)
+![Image](https://raw.githubusercontent.com/SoulCoder3/SoulCoder3.github.io/master/img/CSE-15L-Lab-Report2/lab2.5.png)  
 
 ***  
 
