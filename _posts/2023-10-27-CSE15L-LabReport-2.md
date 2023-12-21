@@ -17,7 +17,7 @@ tags:
 
 ## Part 1  
 The code of StringServer is as follows:  
-![lab2.1.png](../img/CSE-15L-Lab-Report2/lab2.1.png)  
+![lab2.1.png](https://raw.githubusercontent.com/SoulCoder3/SoulCoder3.github.io/master/img/CSE-15L-Lab-Report2/lab2.1.png)  
 
 ***  
 
