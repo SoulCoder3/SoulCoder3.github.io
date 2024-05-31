@@ -13,6 +13,7 @@ tags:
 ---
 
 # JDK, JRE, JVM
+
 | JDK | JRE | JVM |
 | --- | --- | --- |
 | JDK(Java Development Kit) is mainly used for code development and execution.|JRE(Java Runtime Environment) is a mainly used for environment creation to execute the code.|JVM(Java Virtual Machine) provides specifications for all the implementations to JRE. |
@@ -20,6 +21,7 @@ JDK is a complete softwae development kit for developing Java application. | JRE
  | It comprise JRE, JavaDoc, compiler, debuggers, etc|JRE provides libraries and classes required by JVM to run the program.|JVM = Runtime environment to execute Java byte code.
 
 # HashMap and HashTable in Java
+
 | HashMap | HashTable |
 | --- | --- |
 | HashMap is not synchronized thereby making it better for non-threaded applications.|HashTable is synchronized and hence it is suitable for threaded applications.|
