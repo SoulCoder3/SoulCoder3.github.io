@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Java Interview Questions
+title:      JDR, JRK, JVM, and HashMap, HashTable
 subtitle:   
 date:       2024-5-9
 author:     BY David
