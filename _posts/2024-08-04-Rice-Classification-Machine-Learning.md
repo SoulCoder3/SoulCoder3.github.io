@@ -26,6 +26,7 @@ tags:
 # Data exploration
 
 We have 5 rice varieties in our image data, Arborio, Basmati, Ipsala, Jasmine, and Karacadag. The total number of the images is 75,000. Each of the varieties has 15,000 images from different angles and sizes. The image sizes are all 250x250 pixels, but the sizes of each rice are different. Every image is in a dark background with exactly one rice in the middle of the image. We will look at this image and use OpenCV to get the feature from those image datasets. The feature we will extract are:
+
 |    | Variable Name     | Role    | Type       | Description                                                                                                     |
 |---:|:------------------|:--------|:-----------|:----------------------------------------------------------------------------------------------------------------|
 |  0 | Area              | Feature | Integer    | Returns the number of pixels within the boundaries of the rice grain                                            |
