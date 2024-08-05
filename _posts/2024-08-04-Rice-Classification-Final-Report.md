@@ -24,7 +24,7 @@ tags:
 * [Statement of Collaboration](#statement-of-collaboration)
 
 # Introduction  
-![rice_type](//img/2024-08-04-Rice-Classification/rice_type.png)
+![rice_type](/img/2024-08-04-Rice-Classification/rice_type.png)
 Rice, an agriculturally important food for many countries and regions, has a history of cultivation for thousands of years. Over time, new rice varieties have been introduced to enhance its traits such as disease resistance and nutritional content. However, traditional classification among different types of rice is done by manual visual inspection which is often challenging, slow, and results in higher error due to their similarity in size, shape, and color. Thus, developing efficient and accurate classification methods is crucial for helping farmers and producers ensure consistent quality control and segregating different rice varieties for specialized markets.
 
 In this project, we focus on classifying five types of rice: Arborio, Basmati, Ipsala, Jasmine, and Karacadag.  
@@ -109,7 +109,7 @@ Each row is the prediction of each model for the test set, and each column is th
 
 | Fit Accuracy | Fit Loss |
 :-------------------------:|:-------------------------:
-| </img src="/img/2024-08-04-Rice-Classification/fit_accuracy.png" alt="neural_network_fit_accuracy" width="600px"> | </img src="/img/2024-08-04-Rice-Classification/fit_loss.png" alt="neural_network_fit_loss" width="600px">  |
+| <img src="/img/2024-08-04-Rice-Classification/fit_accuracy.png" alt="neural_network_fit_accuracy" width="600px"> | <img src="/img/2024-08-04-Rice-Classification/fit_loss.png" alt="neural_network_fit_loss" width="600px">  |
 
 * **Accuracy for each rice variety:**
 ```python
@@ -225,7 +225,7 @@ Standardization ensures all features have the same scale, which helps the model 
 
 Initially, we selected logistic regression models and trained binary classifiers for pairs of the selected classes, calculating the corresponding log loss values for each. Finally, by using these log loss values, a voting classifier was built. This served as our baseline before moving to more complex models. We were pleasantly surprised by how well logistic regression performed on our dataset. It might indicate strong discriminativity among features but also raises concerns about high complexity in the dataset. Typically, if a logistic regression model works well for a task, it suggests that the differences are more subtle and non-linear.
 
-</img src="/img/2024-08-04-Rice-Classification/report_1.png" alt="report_1" width="500">
+<img src="/img/2024-08-04-Rice-Classification/report_1.png" alt="report_1" width="500">
 
 ### Deep Learning Model and Hyperparameter Tuning
 
@@ -233,7 +233,7 @@ Given the promising results from logistic regression, we moved on to explore dee
 
 To further improve performance, we used Keras Tuner for hyperparameter search. We hypothesized the presence of complex nonlinear relationships in our data, beyond what simpler models could capture. Indeed, in support of this hypothesis, the deep learning model showed improved performance at the expense of a decrease in interpretability.
 
-</img src="/img/2024-08-04-Rice-Classification/report_2.png" alt="report_2" width="500">
+<img src="/img/2024-08-04-Rice-Classification/report_2.png" alt="report_2" width="500">
 
 
 ### Results and Discussion
